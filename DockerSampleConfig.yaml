@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: cdxdockerrepos
-        image: cdxsamplecr.azurecr.io/cdxdockerrepos:latest
+        image: cdxsamplecr.azurecr.io/image5:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
